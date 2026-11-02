@@ -17,7 +17,7 @@ export const VisualStory: React.FC<VisualStoryProps> = ({ language }) => {
       teluguQuote: 'ప్రతి గొప్ప టీ కప్పు కూడా మేలైన సహజ పదార్ధాలతోనే మొదలవుతుంది.',
       description:
         'We source hand-crushed whole green cardamom from Idukki, fragrant fresh ginger roots pounded every sunrise, and farm-fresh whole milk. No artificial essences, no short cuts.',
-      image: '/src/assets/images/lemon_ginger_tea_1793623123058.jpg',
+      image: '/the freshnesh.png',
       highlight: 'Fresh Spices & Pure Milk',
     },
     {
@@ -28,7 +28,7 @@ export const VisualStory: React.FC<VisualStoryProps> = ({ language }) => {
       teluguQuote: 'శ్రద్ధతో తయారై, ఆప్యాయతతో అందించబడుతుంది.',
       description:
         'Brewed slowly in heavy brass samovars to extract the deepest tea tannins and caramelized milk proteins. Aerated through high-altitude long pours to create our signature velvet froth.',
-      image: '/src/assets/images/art_of_chai_preparation_1793623104081.jpg',
+      image: '/preparation.png',
       highlight: 'The Long Aeration Pour',
     },
     {

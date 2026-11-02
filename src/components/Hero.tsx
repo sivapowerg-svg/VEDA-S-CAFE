@@ -21,7 +21,7 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
       {/* Background Image with Slow Zoom & Scrim */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/hero_indian_tea_steam_1793623101609.jpg"
+          src="/indian tea.png"
           alt="Freshly brewed steaming Indian Chai at Veda's Cafe"
           className="w-full h-full object-cover object-center scale-105 animate-[pulse_14s_ease-in-out_infinite] transition-transform duration-1000 ease-out"
         />

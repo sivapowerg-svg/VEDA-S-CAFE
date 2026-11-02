@@ -29,7 +29,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceNote: 'Ask at counter',
     description: 'Hot spiced Indian tea poured into an oven-baked crispy waffle cup. Drink the tea, then eat the cup!',
     teluguDescription: 'వేడి వేడి సుగంధభరిత టీతో కూడిన కరకరలాడే రుచికరమైన బిస్కెట్ కప్. టీ తాగండి, కప్ తినండి!',
-    image: '/src/assets/images/signature_crunchy_cup_tea_1793623102249.jpg',
+    image: '/crunchy cup.png',
     isSpecial: true,
     highlightBadge: "The Veda's Special",
     flavorNotes: ['Cardamom', 'Caramel Waffle', 'Crispy Crunch']
@@ -274,7 +274,7 @@ export const GALLERY_ITEMS = [
     id: 'gal-crunchy',
     title: 'The Signature Crunchy Cup Tea',
     category: 'Signature Special',
-    image: '/src/assets/images/signature_crunchy_cup_tea_1793623102249.jpg',
+    image: '/crunchy cup.png',
     caption: 'Eat the cup after your tea. Crafted with edible crispy waffle biscuit.'
   },
   {

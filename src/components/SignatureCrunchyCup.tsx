@@ -105,7 +105,7 @@ export const SignatureCrunchyCup: React.FC<SignatureCrunchyCupProps> = ({ langua
           <div className="lg:col-span-7 relative group">
             <div className="relative rounded-2xl overflow-hidden border border-[#D8B66A]/40 bg-[#291619] shadow-2xl shadow-black/80">
               <img
-                src="/src/assets/images/signature_crunchy_cup_tea_1793623102249.jpg"
+                src="/crunchy cup.png"
                 alt="Signature Crunchy Cup Tea at Veda's Cafe"
                 className="w-full h-[420px] sm:h-[500px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
