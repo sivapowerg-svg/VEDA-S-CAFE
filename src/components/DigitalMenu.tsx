@@ -284,7 +284,7 @@ export const DigitalMenu: React.FC<DigitalMenuProps> = ({ language, setLanguage 
 
               <div className="pt-2 flex items-center justify-between">
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101"
+                  href="https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-2.5 px-4 rounded bg-[#D8B66A] hover:bg-[#c4a259] text-[#291619] font-semibold text-xs tracking-wider uppercase transition-colors"

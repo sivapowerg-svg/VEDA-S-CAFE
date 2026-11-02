@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, CupSoda } from 'lucide-react';
+import { Sparkles, ArrowRight } from 'lucide-react';
 
 interface HeroProps {
   language: 'en' | 'te';
@@ -53,11 +53,16 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
           <Sparkles className="w-3.5 h-3.5 text-[#D8B66A]" />
         </div>
 
-        {/* Cafe Logo Monogram Badge */}
-        <div className="mb-4 flex items-center justify-center">
-          <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-[#D8B66A]/70 flex items-center justify-center bg-[#402329]/80 backdrop-blur-md shadow-2xl shadow-[#D8B66A]/10 group">
-            <div className="absolute inset-1 rounded-full border border-dashed border-[#D8B66A]/40 animate-[spin_20s_linear_infinite]" />
-            <CupSoda className="w-8 h-8 sm:w-10 sm:h-10 text-[#D8B66A] transform group-hover:scale-110 transition-transform duration-300" />
+        {/* Official Cafe Logo Presentation */}
+        <div className="mb-6 flex items-center justify-center">
+          <div className="relative group max-w-[260px] sm:max-w-xs md:max-w-sm rounded-2xl p-1 bg-gradient-to-b from-[#D8B66A]/70 via-[#B87948]/30 to-[#D8B66A]/20 shadow-2xl shadow-[#D8B66A]/20 transition-all duration-300 hover:shadow-[#D8B66A]/40 hover:scale-[1.02]">
+            <div className="overflow-hidden rounded-xl bg-[#1c0d10] border border-[#D8B66A]/40">
+              <img
+                src="/logo.png"
+                alt="VEDAS CAFE - వేదాస్ కేఫ్ Official Logo"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
 
@@ -107,12 +112,12 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
         </div>
 
         {/* Subtle quick location indicator below CTA */}
-        <div className="mt-12 flex items-center gap-2 text-xs text-[#F8F0E3]/60 tracking-wider">
-          <span>Vivekananda Road</span>
+        <div className="mt-12 flex flex-wrap justify-center items-center gap-2 text-xs text-[#F8F0E3]/60 tracking-wider">
+          <span>Venkatagiri - Gudur Road</span>
           <span aria-hidden="true">·</span>
-          <span>Ashok Nagar</span>
+          <span>Near Railway Station</span>
           <span aria-hidden="true">·</span>
-          <span>West Gudur</span>
+          <span>Ashok Nagar, Gudur</span>
         </div>
       </div>
 

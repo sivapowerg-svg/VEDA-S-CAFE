@@ -46,7 +46,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 12,
     description: 'Classic freshly brewed Indian milk chai made with rich tea leaves and fresh whole milk.',
     teluguDescription: 'తాజా పాలు మరియు నాణ్యమైన టీ పొడితో తయారైన అసలైన సంప్రదాయ టీ.',
-    image: '/src/assets/images/hero_indian_tea_steam_1793623101609.jpg',
+    image: '/images/items/tea.jpg',
     flavorNotes: ['Robust', 'Creamy', 'Traditional']
   },
   {
@@ -60,7 +60,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Our barista special blend with aromatic spices and extra-thick creamy milk.',
     teluguDescription: 'ప్రత్యేక మసాలా దినుసులు మరియు చిక్కటి పాలతో తయారు చేసిన స్పెషల్ టీ.',
-    image: '/src/assets/images/art_of_chai_preparation_1793623104081.jpg',
+    image: '/images/items/sp-tea.jpg',
     isSpecial: true,
     highlightBadge: 'Chef Blend',
     flavorNotes: ['Elaichi', 'Clove hint', 'Velvety']
@@ -76,7 +76,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Freshly pounded organic ginger simmered into golden milk chai for a comforting warm kick.',
     teluguDescription: 'తాజా దంచిన అల్లం రసంతో మరిగించిన ఘాటైన మరియు హాయినిచ్చే అల్లం టీ.',
-    image: '/src/assets/images/lemon_ginger_tea_1793623123058.jpg',
+    image: '/images/items/allam-tea.jpg',
     flavorNotes: ['Fresh Ginger', 'Warming', 'Zesty']
   },
   {
@@ -90,7 +90,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Crisp black tea steeped to amber perfection and lifted with freshly squeezed sun-ripened lemons.',
     teluguDescription: 'తాజా నిమ్మరసంతో కలగలిసిన రిఫ్రెషింగ్ మరియు శక్తినిచ్చే లెమన్ టీ.',
-    image: '/src/assets/images/lemon_ginger_tea_1793623123058.jpg',
+    image: '/images/items/lemon-tea.jpg',
     flavorNotes: ['Citrus Zing', 'Refreshing', 'Pure Amber']
   },
   {
@@ -104,7 +104,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Invigorating harmony of spicy fresh ginger and bright tangy lemon drops with mild natural honey tone.',
     teluguDescription: 'ఘాటైన అల్లం మరియు నిమ్మకాయ కలయికతో రూపొందించిన ఆరోగ్యకరమైన పానీయం.',
-    image: '/src/assets/images/lemon_ginger_tea_1793623123058.jpg',
+    image: '/images/items/ginger-lemon-tea.jpg',
     flavorNotes: ['Immunity', 'Spicy Lemon', 'Cleansing']
   },
   {
@@ -118,7 +118,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Delicate handpicked whole green tea leaves delivering clean antioxidant wellness.',
     teluguDescription: 'సహజసిద్ధమైన గ్రీన్ టీ ఆకులతో చేసిన యాంటీఆక్సిడెంట్ నిండిన సంపూర్ణ ఆరోగ్య పానీయం.',
-    image: '/src/assets/images/hero_indian_tea_steam_1793623101609.jpg',
+    image: '/images/items/green-tea.jpg',
     flavorNotes: ['Botanical', 'Detoxifying', 'Earthy']
   },
   // Coffee & Infusions
@@ -133,7 +133,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Rich roasted South Indian coffee brewed with dense frothy milk and golden crema.',
     teluguDescription: 'సువాసనగల కాఫీ గింజలతో, నురుగుతో కూడిన చిక్కటి దక్షిణ భారతీయ కాఫీ.',
-    image: '/src/assets/images/south_indian_filter_coffee_1793623104467.jpg',
+    image: '/images/items/coffee.jpg',
     flavorNotes: ['Nutty Crema', 'Dark Roast', 'Smooth']
   },
   {
@@ -147,7 +147,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Ayurvedic sun-dried ginger (sonti) blended with fresh coffee decoction and jaggery essence.',
     teluguDescription: 'సాంప్రదాయ ఎండిన శొంఠితో తయారుచేసిన ఆయుర్వేద కాఫీ, గొంతుకు ఎంతో ఉపశమనం.',
-    image: '/src/assets/images/south_indian_filter_coffee_1793623104467.jpg',
+    image: '/images/items/sonti-coffee.jpg',
     flavorNotes: ['Dry Ginger', 'Herbal Comfort', 'Spiced']
   },
   {
@@ -161,7 +161,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Pure unfiltered dark roast decoction with bold body and no added dairy.',
     teluguDescription: 'పాల కలయిక లేని స్వచ్ఛమైన, బలమైన బ్లాక్ కాఫీ డికాక్షన్.',
-    image: '/src/assets/images/south_indian_filter_coffee_1793623104467.jpg',
+    image: '/images/items/black-coffee.jpg',
     flavorNotes: ['Bold Cocoa', 'Clean Finish', 'Zero Dairy']
   },
   // Milk & Specialty
@@ -176,7 +176,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 15,
     description: 'Steamed pure farm-fresh dairy milk, served piping hot with gentle natural sweetness.',
     teluguDescription: 'తాజా స్వచ్ఛమైన పాడి పాలు, వేడిగా తియ్యగా అందించబడుతుంది.',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/milk.jpg',
     flavorNotes: ['Pure Dairy', 'Velvety', 'Wholesome']
   },
   {
@@ -190,7 +190,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Golden saffron infused milk loaded with roasted California almond slivers and pistachios.',
     teluguDescription: 'కుంకుమపువ్వు సువాసనతో, వేయించిన బాదం మరియు పిస్తా పలుకులతో చేసిన రాజసమైన బాదం పాలు.',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/badam-milk.jpg',
     isSpecial: true,
     highlightBadge: 'Royal Sip',
     flavorNotes: ['Saffron', 'Crushed Almonds', 'Creamy Cardamom']
@@ -207,7 +207,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Nutritious chocolate malt energy beverage whipped hot into steaming milk.',
     teluguDescription: 'ఉత్సాహాన్నిచ్చే చాక్లెట్ మాల్ట్ ఎనర్జీ హెల్త్ డ్రింక్.',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/boost.jpg',
     flavorNotes: ['Chocolate Malt', 'Energy Boost', 'Rich']
   },
   {
@@ -221,7 +221,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 20,
     description: 'Wholesome malted barley and wheat milk drink, comforting and restorative.',
     teluguDescription: 'బార్లీ మరియు గోధుమ మాల్ట్ యొక్క పోషక విలువలతో కూడిన సాంప్రదాయ హార్లిక్స్.',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/horlicks.jpg',
     flavorNotes: ['Barley Malt', 'Gentle Sweetness', 'Restorative']
   },
   // Parcel Menu
@@ -236,7 +236,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 30,
     description: 'Convenient thermal flask pack sealing hot freshly prepared chai for home or workplace.',
     teluguDescription: 'ఇంటికి లేదా ఆఫీసుకు వేడి వేడిగా తీసుకెళ్లడానికి ప్రత్యేకంగా ప్యాక్ చేసిన టీ పార్శిల్.',
-    image: '/src/assets/images/hero_indian_tea_steam_1793623101609.jpg',
+    image: '/images/items/tea-parcel.jpg',
     flavorNotes: ['Thermal Sealed', 'Serves Fresh', 'Piping Hot']
   },
   {
@@ -250,7 +250,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceNote: 'Confirm price with owner',
     description: 'Frothy hot South Indian coffee packaged hot for your journey or family gathering.',
     teluguDescription: 'ప్రయాణాలకు మరియు కుటుంబ సభ్యులకు ప్రత్యేకంగా ప్యాక్ చేసిన వేడి కాఫీ పార్శిల్.',
-    image: '/src/assets/images/south_indian_filter_coffee_1793623104467.jpg',
+    image: '/images/items/coffee-parcel.jpg',
     flavorNotes: ['Fresh Brew', 'Confirm at counter', 'Aromatic']
   },
   {
@@ -264,7 +264,7 @@ export const MENU_ITEMS: MenuItem[] = [
     numericPrice: 30,
     description: 'Boiled fresh farm milk cleanly insulated and packed for takeaway convenience.',
     teluguDescription: 'తీసుకెళ్లడానికి పరిశుభ్రంగా ప్యాక్ చేయబడిన తాజా పాలు పార్శిల్.',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/milk-parcel.jpg',
     flavorNotes: ['Hygienic', 'Whole Milk', 'Thermal Wrap']
   }
 ];
@@ -281,42 +281,42 @@ export const GALLERY_ITEMS = [
     id: 'gal-chai',
     title: 'Traditional Cutting Chai',
     category: 'Traditional Tea',
-    image: '/src/assets/images/hero_indian_tea_steam_1793623101609.jpg',
+    image: '/images/items/tea.jpg',
     caption: 'Steaming glass kulhad chai with slow simmered ginger and green cardamom.'
   },
   {
     id: 'gal-art',
     title: 'The Art of Master Brewing',
     category: 'Tea Preparation',
-    image: '/src/assets/images/art_of_chai_preparation_1793623104081.jpg',
+    image: '/images/items/sp-tea.jpg',
     caption: 'Long pour aeration for thick creamy froth and velvety consistency.'
   },
   {
     id: 'gal-coffee',
     title: 'South Indian Filter Coffee',
     category: 'Coffee',
-    image: '/src/assets/images/south_indian_filter_coffee_1793623104467.jpg',
+    image: '/images/items/coffee.jpg',
     caption: 'Served in a gleaming brass dabara and tumbler with authentic crema.'
   },
   {
     id: 'gal-badam',
     title: 'Golden Saffron Badam Milk',
     category: 'Specialty Beverage',
-    image: '/src/assets/images/badam_milk_saffron_1793623104438.jpg',
+    image: '/images/items/badam-milk.jpg',
     caption: 'Rich almond cream milk adorned with Kashmiri saffron and pistachio crunch.'
   },
   {
     id: 'gal-ambiance',
     title: "Veda's Cafe Ambiance",
     category: 'Cafe Atmosphere',
-    image: '/src/assets/images/cafe_cozy_ambiance_1793623122799.jpg',
+    image: '/cafe-photo.jpg',
     caption: 'Warm golden lamps, dark wood warmth, and good conversations in Gudur.'
   },
   {
     id: 'gal-lemon',
     title: 'Infused Ginger Lemon Tea',
     category: 'Specialty Beverage',
-    image: '/src/assets/images/lemon_ginger_tea_1793623123058.jpg',
+    image: '/images/items/ginger-lemon-tea.jpg',
     caption: 'Sun-drenched citrus and spicy ginger root for an invigorating sip.'
   }
 ];

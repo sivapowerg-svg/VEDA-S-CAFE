@@ -1,5 +1,5 @@
 import React from 'react';
-import { Coffee, Instagram, MapPin, ArrowUp, Sparkles, Navigation } from 'lucide-react';
+import { Instagram, MapPin, ArrowUp, Sparkles, Navigation } from 'lucide-react';
 
 interface FooterProps {
   language: 'en' | 'te';
@@ -46,16 +46,20 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 py-14 border-b border-[#402329]">
           {/* Brand Column (5 cols) */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
-              <span className="w-10 h-10 rounded-full border border-[#D8B66A] flex items-center justify-center bg-[#402329] text-[#D8B66A]">
-                <Coffee className="w-5 h-5" />
-              </span>
+            <div className="flex items-center gap-3.5">
+              <div className="w-12 h-12 rounded-xl overflow-hidden border border-[#D8B66A]/60 bg-[#190b0e] shadow-xl p-0.5 flex items-center justify-center shrink-0">
+                <img
+                  src="/logo-crest.png"
+                  alt="VEDAS CAFE Logo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div>
                 <span className="font-serif-display text-2xl font-bold tracking-wider text-[#F8F0E3]">
-                  VEDA&apos;S CAFE
+                  VEDAS CAFE
                 </span>
-                <p className="text-[11px] font-semibold text-[#D8B66A] tracking-[0.2em] uppercase">
-                  Happiness is the Cup of Tea.
+                <p className="text-[11px] font-semibold text-[#D8B66A] tracking-[0.18em] uppercase">
+                  వేదాస్ కేఫ్ · A Sip of Tradition &amp; Taste
                 </p>
               </div>
             </div>
@@ -66,7 +70,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
 
             <div className="pt-2 flex items-center gap-3">
               <a
-                href="https://instagram.com/vedascafe_gudur"
+                href="https://www.instagram.com/vedascafe_guduru?vrfl=MXJ3MmVvdmU5Mjl6dw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#402329] hover:bg-[#D8B66A] text-[#F8F0E3] hover:text-[#291619] border border-[#D8B66A]/30 flex items-center justify-center transition-colors"
@@ -75,7 +79,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101"
+                href="https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#402329] hover:bg-[#D8B66A] text-[#F8F0E3] hover:text-[#291619] border border-[#D8B66A]/30 flex items-center justify-center transition-colors"
@@ -112,14 +116,21 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
               Cafe Location
             </h4>
             <p className="text-sm text-[#F8F0E3]/80 leading-relaxed">
-              4RXW+9JF, Vivekananda Road, Ashok Nagar, West Gudur Rural, Andhra Pradesh 524101.
+              Door No 100, Petrol Pump, 5890-6, Venkatagiri - Gudur Road, Near Railway Station, Opposite CPM Office, Ashok Nagar, Nellore, West Gudur Rural, Andhra Pradesh - 524101, India.
             </p>
             <div className="pt-1">
               <p className="text-xs text-[#D8B66A] font-semibold">
                 Open Daily · Closes at 9:30 PM
               </p>
-              <p className="text-xs text-[#F8F0E3]/60 mt-0.5">
-                Contact: +91 98765 43210 (Cafe Desk)
+              <p className="text-xs text-[#F8F0E3]/70 mt-0.5">
+                Contact:{' '}
+                <a
+                  href="tel:+919182960893"
+                  className="text-[#D8B66A] hover:underline font-medium"
+                >
+                  91829 60893
+                </a>{' '}
+                <span className="text-[#F8F0E3]/50">(Cafe Desk)</span>
               </p>
             </div>
           </div>

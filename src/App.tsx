@@ -71,7 +71,7 @@ export default function App() {
       {showFloatingBar && (
         <div className="fixed bottom-6 right-6 z-40 flex items-center gap-3 animate-in fade-in slide-in-from-bottom-3 duration-300">
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101"
+            href="https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2.5 rounded-full bg-[#D8B66A] text-[#291619] text-xs font-bold uppercase tracking-wider shadow-2xl hover:bg-[#c6a457] transition-all flex items-center gap-2 transform hover:scale-105"

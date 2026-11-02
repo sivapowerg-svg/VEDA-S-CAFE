@@ -17,7 +17,7 @@ export const OurStory: React.FC<OurStoryProps> = ({ language }) => {
           <div className="lg:col-span-6 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-[#D8B66A]/60 shadow-2xl shadow-black/80">
               <img
-                src="/src/assets/images/cafe_cozy_ambiance_1793623122799.jpg"
+                src="/cafe-photo.jpg"
                 alt="Veda's Cafe cozy interior with patrons enjoying tea"
                 referrerPolicy="no-referrer"
                 className="w-full h-[360px] sm:h-[420px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
@@ -36,7 +36,7 @@ export const OurStory: React.FC<OurStoryProps> = ({ language }) => {
             {/* Overlapping secondary photo offset */}
             <div className="hidden sm:block absolute -bottom-10 -right-8 w-56 h-48 rounded-xl overflow-hidden border-2 border-[#D8B66A] shadow-2xl z-20 bg-[#402329]">
               <img
-                src="/src/assets/images/south_indian_filter_coffee_1793623104467.jpg"
+                src="/images/items/coffee.jpg"
                 alt="South Indian Filter Coffee tumbler"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
@@ -70,7 +70,7 @@ export const OurStory: React.FC<OurStoryProps> = ({ language }) => {
                   : 'వేదాస్ కేఫ్‌కు స్వాగతం. ఇక్కడ టీ యొక్క సహజమైన ఆనందం భారతీయ ఆతిథ్య సంప్రదాయంతో కలుస్తుంది. ప్రాచీన టీ, కాఫీ నుండి రిఫ్రెషింగ్ పానీయాలు మరియు మా ప్రత్యేకమైన క్రంచీ కప్ టీ వరకు, ప్రతి సందర్శన ఒక మధురమైన అనుభూతిగా మారుతుంది.'}
               </p>
               <p>
-                Nestled on Vivekananda Road in Ashok Nagar, West Gudur, Veda&apos;s Cafe was born out of a deep reverence for the honest cup. In an era of hurried sips, we created a sanctuary where neighbors gather, students pause to converse, and travelers discover tea served with soul.
+                Nestled on Venkatagiri - Gudur Road near the Railway Station in Ashok Nagar, West Gudur, Veda&apos;s Cafe was born out of a deep reverence for the honest cup. In an era of hurried sips, we created a sanctuary where neighbors gather, students pause to converse, and travelers discover tea served with soul.
               </p>
             </div>
 

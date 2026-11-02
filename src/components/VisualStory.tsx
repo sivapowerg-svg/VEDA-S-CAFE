@@ -39,7 +39,7 @@ export const VisualStory: React.FC<VisualStoryProps> = ({ language }) => {
       teluguQuote: 'ఒక్క గుటక హాయినిస్తుంది. ప్రతి కప్పు చిరునవ్వును పూయిస్తుంది.',
       description:
         'Tea in Gudur is not just a drink—it is the pause between conversations, the morning spark with friends, and the evening comfort that makes every day memorable.',
-      image: '/src/assets/images/cafe_cozy_ambiance_1793623122799.jpg',
+      image: '/cafe-photo.jpg',
       highlight: 'Shared Warmth & Memories',
     },
   ];

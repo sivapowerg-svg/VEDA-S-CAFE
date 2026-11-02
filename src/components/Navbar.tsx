@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Compass, Coffee } from 'lucide-react';
+import { Menu, X, Compass } from 'lucide-react';
 
 interface NavbarProps {
   language: 'en' | 'te';
@@ -50,18 +50,27 @@ export const Navbar: React.FC<NavbarProps> = ({ language, setLanguage }) => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-8">
-          {/* Zone 1: Brand Wordmark */}
+          {/* Zone 1: Brand Wordmark with Official Logo */}
           <a
             href="#hero"
             onClick={(e) => handleNavClick(e, '#hero')}
-            className="group flex items-center gap-2.5 whitespace-nowrap shrink-0 focus:outline-none"
+            className="group flex items-center gap-3 whitespace-nowrap shrink-0 focus:outline-none"
           >
-            <span className="w-8 h-8 rounded-full border border-[#D8B66A]/60 flex items-center justify-center bg-[#402329]/60 text-[#D8B66A] group-hover:border-[#D8B66A] transition-colors">
-              <Coffee className="w-4 h-4" />
-            </span>
-            <span className="font-serif-display text-xl sm:text-2xl font-bold tracking-wider text-[#F8F0E3] group-hover:text-[#D8B66A] transition-colors">
-              VEDA&apos;S CAFE
-            </span>
+            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-[#D8B66A]/70 p-0.5 bg-[#1a0c0e] shadow-md group-hover:border-[#D8B66A] group-hover:shadow-[#D8B66A]/30 transition-all duration-300 flex items-center justify-center shrink-0">
+              <img
+                src="/logo-crest.png"
+                alt="VEDAS CAFE Logo"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif-display text-lg sm:text-xl font-bold tracking-wider text-[#F8F0E3] group-hover:text-[#D8B66A] transition-colors leading-tight">
+                VEDAS CAFE
+              </span>
+              <span className="font-telugu text-[10px] text-[#D8B66A] tracking-wider leading-none">
+                వేదాస్ కేఫ్ · Gudur
+              </span>
+            </div>
           </a>
 
           {/* Zone 2: Navigation Links */}
@@ -165,7 +174,7 @@ export const Navbar: React.FC<NavbarProps> = ({ language, setLanguage }) => {
           </div>
           <div className="pt-2">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101"
+              href="https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full text-center block py-2.5 px-4 text-xs font-semibold tracking-wider uppercase bg-[#402329] hover:bg-[#502c34] text-[#D8B66A] border border-[#D8B66A]/40 rounded transition-colors"

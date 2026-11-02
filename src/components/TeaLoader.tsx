@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Coffee, Sparkles } from 'lucide-react';
 
 interface TeaLoaderProps {
   onComplete?: () => void;
@@ -41,18 +40,25 @@ export const TeaLoader: React.FC<TeaLoaderProps> = ({ onComplete }) => {
           <div className="w-2.5 h-7 bg-gradient-to-t from-[#D8B66A]/50 via-[#F8F0E3]/20 to-transparent rounded-full blur-xs animate-steam-3 mx-0.5" />
         </div>
 
-        {/* Golden Tea Cup Icon */}
-        <div className="w-16 h-16 rounded-full border-2 border-[#D8B66A] flex items-center justify-center bg-[#402329] shadow-2xl shadow-[#D8B66A]/20">
-          <Coffee className="w-8 h-8 text-[#D8B66A] animate-pulse" />
+        {/* Official Golden Tea Cup Emblem */}
+        <div className="w-20 h-20 rounded-full border-2 border-[#D8B66A] overflow-hidden bg-[#1a0c0e] shadow-2xl shadow-[#D8B66A]/30 p-1 flex items-center justify-center animate-pulse">
+          <img
+            src="/logo-crest.png"
+            alt="VEDAS CAFE Emblem"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Brand Text */}
         <div className="mt-5 text-center">
           <h2 className="font-serif-display text-2xl font-bold tracking-widest text-[#F8F0E3]">
-            VEDA&apos;S CAFE
+            VEDAS CAFE
           </h2>
-          <p className="text-[10px] tracking-[0.28em] uppercase text-[#D8B66A] font-medium mt-1">
-            THE ART OF CHAI · GUDUR
+          <p className="font-telugu text-sm text-[#D8B66A] font-semibold mt-1">
+            వేదాస్ కేఫ్
+          </p>
+          <p className="text-[10px] tracking-[0.25em] uppercase text-[#F8F0E3]/70 font-medium mt-1">
+            A SIP OF TRADITION &amp; TASTE · GUDUR
           </p>
         </div>
 

@@ -8,9 +8,9 @@ interface VisitUsProps {
 export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
   const [copied, setCopied] = useState(false);
 
-  const address = "4RXW+9JF, Vivekananda Road, Ashok Nagar, West Gudur Rural, Andhra Pradesh 524101";
-  const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101";
-  const googleMapsViewUrl = "https://maps.google.com/maps?q=4RXW%2B9JF%2C+Vivekananda+Road%2C+Ashok+Nagar%2C+West+Gudur+Rural%2C+Andhra+Pradesh+524101&t=&z=16&ie=UTF8&iwloc=&output=embed";
+  const address = "Door No 100, Petrol Pump, 5890-6, Venkatagiri - Gudur Road, Near Railway Station, Opposite CPM Office, Ashok Nagar, Nellore, West Gudur Rural, Andhra Pradesh - 524101, India.";
+  const googleMapsDirectionsUrl = "https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac";
+  const googleMapsViewUrl = "https://maps.google.com/maps?cid=15757623622044470517&hl=en&t=&z=17&ie=UTF8&iwloc=&output=embed";
 
   const handleCopyAddress = () => {
     navigator.clipboard.writeText(address);
@@ -54,7 +54,7 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                   BUSINESS SHOWCASE
                 </span>
                 <h3 className="font-serif-display text-3xl font-bold text-[#F8F0E3] mt-1">
-                  VEDA&apos;S CAFE
+                  VEDAS CAFE
                 </h3>
                 <p className="text-xs text-[#D8B66A] font-telugu mt-0.5">
                   వేదాస్ కేఫ్ · గుడూరు
@@ -111,7 +111,7 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                 </div>
               </div>
 
-              {/* Contact Information Placeholder */}
+              {/* Contact Information */}
               <div className="flex items-start gap-3.5">
                 <div className="p-2.5 rounded-lg bg-[#402329] text-[#D8B66A] shrink-0 mt-0.5">
                   <Phone className="w-5 h-5" />
@@ -121,18 +121,18 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                     Contact / Inquiries
                   </h4>
                   <a
-                    href="tel:+919876543210"
-                    className="text-sm text-[#F8F0E3]/85 hover:text-[#D8B66A] transition-colors"
+                    href="tel:+919182960893"
+                    className="text-sm text-[#F8F0E3]/90 hover:text-[#D8B66A] font-medium transition-colors"
                   >
-                    +91 98765 43210 <span className="text-[11px] text-[#F8F0E3]/50">(Cafe Desk)</span>
+                    91829 60893 <span className="text-[11px] text-[#F8F0E3]/50">(Cafe Desk)</span>
                   </a>
                   <p className="text-[11px] text-[#F8F0E3]/60 mt-0.5">
-                    For bulk parcel inquiries & special batches
+                    For bulk parcel inquiries &amp; special batches
                   </p>
                 </div>
               </div>
 
-              {/* Instagram Placeholder Link */}
+              {/* Instagram Official Link */}
               <div className="flex items-start gap-3.5">
                 <div className="p-2.5 rounded-lg bg-[#402329] text-[#D8B66A] shrink-0 mt-0.5">
                   <Instagram className="w-5 h-5" />
@@ -142,12 +142,12 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                     Follow Our Story
                   </h4>
                   <a
-                    href="https://instagram.com/vedascafe_gudur"
+                    href="https://www.instagram.com/vedascafe_guduru?vrfl=MXJ3MmVvdmU5Mjl6dw=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-[#F8F0E3]/85 hover:text-[#D8B66A] transition-colors inline-flex items-center gap-1.5"
                   >
-                    <span>@vedascafe_gudur</span>
+                    <span>@vedascafe_guduru</span>
                     <ExternalLink className="w-3.5 h-3.5 text-[#D8B66A]" />
                   </a>
                 </div>
@@ -197,7 +197,7 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                 rel="noopener noreferrer"
                 className="text-[#D8B66A] font-semibold hover:underline flex items-center gap-1"
               >
-                <span>Open Full Navigation</span>
+                <span>Open in Maps</span>
                 <ExternalLink className="w-3 h-3" />
               </a>
             </div>
