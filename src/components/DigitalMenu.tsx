@@ -48,8 +48,8 @@ export const DigitalMenu: React.FC<DigitalMenuProps> = ({ language, setLanguage 
 
           <p className="text-sm sm:text-base text-[#F8F0E3]/75 max-w-xl mx-auto mb-8">
             {language === 'en'
-              ? 'From our classic ₹12 Indian chai to royal Badam Milk and the iconic Crunchy Cup Tea. Honest ingredients, authentic flavors.'
-              : '₹12 సంప్రదాయ టీ నుండి రాజసమైన బాదం పాలు మరియు ప్రత్యేక క్రంచీ కప్ టీ వరకు. స్వచ్ఛమైన పదార్ధాలు, తిరుగులేని రుచి.'}
+              ? 'From our classic ₹12 Indian chai to royal Badam Milk and the iconic Biscuit Cup Tea. Honest ingredients, authentic flavors.'
+              : '₹12 సంప్రదాయ టీ నుండి రాజసమైన బాదం పాలు మరియు ప్రత్యేక బిస్కెట్ కప్ టీ వరకు. స్వచ్ఛమైన పదార్ధాలు, తిరుగులేని రుచి.'}
           </p>
 
           {/* Bilingual Language Selector Banner */}

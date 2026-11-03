@@ -38,7 +38,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
           </h2>
 
           <p className="font-script text-2xl sm:text-3xl text-[#D8B66A]">
-            One Cup. Endless Happiness. A Crunchy Surprise.
+            Happiness is the Cup of Tea. One Cup. Endless Happiness.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
             </div>
 
             <p className="text-sm text-[#F8F0E3]/70 leading-relaxed max-w-sm">
-              A premium celebration of Indian tea culture in Gudur, Andhra Pradesh. Home of the signature Crunchy Cup Tea, artisanal filter coffee, and authentic freshly boiled chai.
+              A premium celebration of Indian tea culture in Gudur, Andhra Pradesh. Home of the signature Biscuit Cup Tea, artisanal filter coffee, and authentic freshly boiled chai.
             </p>
 
             <div className="pt-2 flex items-center gap-3">
               <a
-                href="https://www.instagram.com/vedascafe_guduru?vrfl=MXJ3MmVvdmU5Mjl6dw=="
+                href="https://www.instagram.com/vedas.cafee?mdxt=bGk0dXE4ZDIwdDMy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#402329] hover:bg-[#D8B66A] text-[#F8F0E3] hover:text-[#291619] border border-[#D8B66A]/30 flex items-center justify-center transition-colors"
@@ -125,10 +125,10 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
               <p className="text-xs text-[#F8F0E3]/70 mt-0.5">
                 Contact:{' '}
                 <a
-                  href="tel:+919182960893"
+                  href="tel:+919618377032"
                   className="text-[#D8B66A] hover:underline font-medium"
                 >
-                  91829 60893
+                  96183 77032
                 </a>{' '}
                 <span className="text-[#F8F0E3]/50">(Cafe Desk)</span>
               </p>

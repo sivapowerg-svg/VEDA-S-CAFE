@@ -38,8 +38,8 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
 
           <p className="text-sm sm:text-base text-[#F8F0E3]/75">
             {language === 'en'
-              ? 'Drop in with family and friends to taste hot tea in an edible crunchy cup or traditional filter coffee.'
-              : 'కుటుంబంతో మరియు స్నేహితులతో కలిసి వేడి వేడి టీ, సరికొత్త క్రంచీ కప్ మరియు ఫిల్టర్ కాఫీని ఆస్వాదించడానికి విచ్చేయండి.'}
+              ? 'Drop in with family and friends to taste hot tea in an edible biscuit cup or traditional filter coffee.'
+              : 'కుటుంబంతో మరియు స్నేహితులతో కలిసి వేడి వేడి టీ, సరికొత్త బిస్కెట్ కప్ మరియు ఫిల్టర్ కాఫీని ఆస్వాదించడానికి విచ్చేయండి.'}
           </p>
         </div>
 
@@ -121,10 +121,10 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                     Contact / Inquiries
                   </h4>
                   <a
-                    href="tel:+919182960893"
+                    href="tel:+919618377032"
                     className="text-sm text-[#F8F0E3]/90 hover:text-[#D8B66A] font-medium transition-colors"
                   >
-                    91829 60893 <span className="text-[11px] text-[#F8F0E3]/50">(Cafe Desk)</span>
+                    96183 77032 <span className="text-[11px] text-[#F8F0E3]/50">(Cafe Desk)</span>
                   </a>
                   <p className="text-[11px] text-[#F8F0E3]/60 mt-0.5">
                     For bulk parcel inquiries &amp; special batches
@@ -142,12 +142,12 @@ export const VisitUs: React.FC<VisitUsProps> = ({ language }) => {
                     Follow Our Story
                   </h4>
                   <a
-                    href="https://www.instagram.com/vedascafe_guduru?vrfl=MXJ3MmVvdmU5Mjl6dw=="
+                    href="https://www.instagram.com/vedas.cafee?mdxt=bGk0dXE4ZDIwdDMy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-[#F8F0E3]/85 hover:text-[#D8B66A] transition-colors inline-flex items-center gap-1.5"
                   >
-                    <span>@vedascafe_guduru</span>
+                    <span>@vedas.cafee</span>
                     <ExternalLink className="w-3.5 h-3.5 text-[#D8B66A]" />
                   </a>
                 </div>

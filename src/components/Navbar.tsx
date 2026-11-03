@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Compass } from 'lucide-react';
+import { Menu, X, Compass, Instagram } from 'lucide-react';
 
 interface NavbarProps {
   language: 'en' | 'te';
@@ -115,6 +115,17 @@ export const Navbar: React.FC<NavbarProps> = ({ language, setLanguage }) => {
               </button>
             </div>
 
+            {/* Instagram Profile Link */}
+            <a
+              href="https://www.instagram.com/vedas.cafee?mdxt=bGk0dXE4ZDIwdDMy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex w-8 h-8 rounded-full bg-[#402329]/80 hover:bg-[#D8B66A] text-[#D8B66A] hover:text-[#291619] border border-[#D8B66A]/30 items-center justify-center transition-all duration-200"
+              aria-label="Instagram Profile"
+            >
+              <Instagram className="w-4 h-4" />
+            </a>
+
             {/* Golden Explore Menu Button */}
             <a
               href="#menu"
@@ -172,14 +183,23 @@ export const Navbar: React.FC<NavbarProps> = ({ language, setLanguage }) => {
               </a>
             ))}
           </div>
-          <div className="pt-2">
+          <div className="pt-2 flex items-center gap-2">
             <a
               href="https://maps.app.goo.gl/Mentj1W2MpK3nhJN9?g_st=ac"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full text-center block py-2.5 px-4 text-xs font-semibold tracking-wider uppercase bg-[#402329] hover:bg-[#502c34] text-[#D8B66A] border border-[#D8B66A]/40 rounded transition-colors"
+              className="flex-1 text-center block py-2.5 px-4 text-xs font-semibold tracking-wider uppercase bg-[#402329] hover:bg-[#502c34] text-[#D8B66A] border border-[#D8B66A]/40 rounded transition-colors"
             >
               Get Directions to Cafe
+            </a>
+            <a
+              href="https://www.instagram.com/vedas.cafee?mdxt=bGk0dXE4ZDIwdDMy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 bg-[#402329] hover:bg-[#D8B66A] text-[#D8B66A] hover:text-[#291619] border border-[#D8B66A]/40 rounded transition-colors flex items-center justify-center shrink-0"
+              aria-label="Instagram Profile"
+            >
+              <Instagram className="w-4 h-4" />
             </a>
           </div>
         </div>

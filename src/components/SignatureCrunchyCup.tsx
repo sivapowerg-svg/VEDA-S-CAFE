@@ -84,7 +84,7 @@ export const SignatureCrunchyCup: React.FC<SignatureCrunchyCupProps> = ({ langua
           </div>
 
           <p className="font-serif-display text-lg text-[#D8B66A] italic mb-1">
-            {language === 'en' ? 'Meet The Crunch.' : 'క్రంచీ కప్ టీ ప్రత్యేకం'}
+            {language === 'en' ? 'Meet The Crunch.' : 'బిస్కెట్ కప్ టీ ప్రత్యేకం'}
           </p>
 
           <h2 className="font-serif-display text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#F8F0E3] leading-[1.15] text-balance mb-6">
@@ -105,8 +105,8 @@ export const SignatureCrunchyCup: React.FC<SignatureCrunchyCupProps> = ({ langua
           <div className="lg:col-span-7 relative group">
             <div className="relative rounded-2xl overflow-hidden border border-[#D8B66A]/40 bg-[#291619] shadow-2xl shadow-black/80">
               <img
-                src="/crunchy cup.png"
-                alt="Signature Crunchy Cup Tea at Veda's Cafe"
+                src="/biscuit cup tea.png"
+                alt="Signature Biscuit Cup Tea at Veda's Cafe"
                 className="w-full h-[420px] sm:h-[500px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
 
@@ -122,7 +122,7 @@ export const SignatureCrunchyCup: React.FC<SignatureCrunchyCupProps> = ({ langua
                   100% Edible & Eco-Friendly
                 </p>
                 <p className="font-serif-display text-sm font-bold text-[#F8F0E3]">
-                  Crispy Baked Waffle Shell
+                  Biscuit Cup Tea
                 </p>
               </div>
 
@@ -180,7 +180,7 @@ export const SignatureCrunchyCup: React.FC<SignatureCrunchyCupProps> = ({ langua
                 </div>
                 <div>
                   <h3 className="font-serif-display text-xl font-bold text-[#F8F0E3] mb-1">
-                    2. Crispy Waffle Cup
+                    2. Crispy Biscuit Cup
                   </h3>
                   <p className="text-sm text-[#F8F0E3]/70 leading-relaxed">
                     Oven-crisped biscuit layer coated with an edible moisture-resistant barrier that stays completely firm for up to 15 minutes of tea enjoyment.

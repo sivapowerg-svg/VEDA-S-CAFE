@@ -1,6 +1,8 @@
 {
   "name": "VEDA'S CAFE – The Art of Chai",
-  "description": "Premium showcase website for Veda's Cafe in Gudur, Andhra Pradesh featuring signature Crunchy Cup Tea, authentic chai, and artisanal beverages.",
+  "description": "Premium showcase website for Veda's Cafe in Gudur, Andhra Pradesh featuring signature Biscuit Cup Tea, authentic chai, and artisanal beverages.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

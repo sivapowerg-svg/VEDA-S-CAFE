@@ -5,6 +5,7 @@ import { SignatureCrunchyCup } from './components/SignatureCrunchyCup';
 import { DigitalMenu } from './components/DigitalMenu';
 import { VisualStory } from './components/VisualStory';
 import { OurStory } from './components/OurStory';
+import { LeadershipProfile } from './components/LeadershipProfile';
 import { Gallery } from './components/Gallery';
 import { WhyVedaCafe } from './components/WhyVedaCafe';
 import { VisitUs } from './components/VisitUs';
@@ -43,7 +44,7 @@ export default function App() {
       {/* 1. Hero Section */}
       <Hero language={language} />
 
-      {/* 2. Signature Experience - Crunchy Cup Tea (The Hero Product) */}
+      {/* 2. Signature Experience - Biscuit Cup Tea (The Hero Product) */}
       <SignatureCrunchyCup language={language} />
 
       {/* 3. Our Menu - Editorial Digital Menu */}
@@ -54,6 +55,9 @@ export default function App() {
 
       {/* 5. Our Story & Heritage */}
       <OurStory language={language} />
+
+      {/* 5b. Leadership & Hospitality Profile */}
+      <LeadershipProfile language={language} />
 
       {/* 6. Visual Chronicles Gallery */}
       <Gallery language={language} />

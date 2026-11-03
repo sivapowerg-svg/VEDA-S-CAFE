@@ -29,10 +29,10 @@ export const WhyVedaCafe: React.FC<WhyVedaCafeProps> = ({ language }) => {
       icon: Award,
       title: 'The Special',
       teluguTitle: 'ప్రత్యేకత',
-      subtitle: 'Discover our unique Crunchy Cup Tea.',
-      teluguSubtitle: 'మా ప్రత్యేకమైన క్రంచీ కప్ టీని కనుగొనండి.',
+      subtitle: 'Discover our unique Biscuit Cup Tea.',
+      teluguSubtitle: 'మా ప్రత్యేకమైన బిస్కెట్ కప్ టీని కనుగొనండి.',
       description:
-        'Drink your hot tea, then crunch into your crispy waffle cup! A zero-waste, unforgettable indulgence found right here in Gudur.',
+        'Drink your hot tea, then crunch into your crispy biscuit cup! A zero-waste, unforgettable indulgence found right here in Gudur.',
     },
     {
       icon: Coins,

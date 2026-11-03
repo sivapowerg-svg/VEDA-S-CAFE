@@ -54,7 +54,7 @@ export const Gallery: React.FC<GalleryProps> = ({ language }) => {
 
         {/* Asymmetrical Masonry Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-5">
-          {/* Card 1: Crunchy Cup Tea (Large Hero Feature - 7 cols) */}
+          {/* Card 1: Biscuit Cup Tea (Large Hero Feature - 7 cols) */}
           <div
             onClick={() => openLightbox(0)}
             className="lg:col-span-7 h-80 sm:h-96 rounded-2xl overflow-hidden relative group cursor-pointer border border-[#D8B66A]/40 shadow-xl"

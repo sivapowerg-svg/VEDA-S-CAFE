@@ -20,19 +20,19 @@ export const MENU_ITEMS: MenuItem[] = [
   // Signature Special
   {
     id: 'crunchy-cup-tea',
-    name: 'Crunchy Cup Tea',
-    teluguName: 'క్రంచీ కప్ టీ',
+    name: 'Biscuit Cup Tea',
+    teluguName: 'బిస్కెట్ కప్ టీ',
     category: 'tea',
     categoryLabel: 'Signature Special',
     teluguCategoryLabel: 'సిగ్నేచర్ స్పెషల్',
     price: 'Price to be confirmed',
     priceNote: 'Ask at counter',
-    description: 'Hot spiced Indian tea poured into an oven-baked crispy waffle cup. Drink the tea, then eat the cup!',
+    description: 'Hot spiced Indian tea poured into an oven-baked crispy biscuit cup. Drink the tea, then eat the cup!',
     teluguDescription: 'వేడి వేడి సుగంధభరిత టీతో కూడిన కరకరలాడే రుచికరమైన బిస్కెట్ కప్. టీ తాగండి, కప్ తినండి!',
-    image: '/crunchy cup.png',
+    image: '/biscuit cup tea.png',
     isSpecial: true,
     highlightBadge: "The Veda's Special",
-    flavorNotes: ['Cardamom', 'Caramel Waffle', 'Crispy Crunch']
+    flavorNotes: ['Cardamom', 'Toasted Biscuit', 'Crispy Crunch']
   },
   // Tea & Beverages
   {
@@ -272,10 +272,10 @@ export const MENU_ITEMS: MenuItem[] = [
 export const GALLERY_ITEMS = [
   {
     id: 'gal-crunchy',
-    title: 'The Signature Crunchy Cup Tea',
+    title: 'The Signature Biscuit Cup Tea',
     category: 'Signature Special',
-    image: '/crunchy cup.png',
-    caption: 'Eat the cup after your tea. Crafted with edible crispy waffle biscuit.'
+    image: '/biscuit cup tea.png',
+    caption: 'Eat the cup after your tea. Crafted with edible crispy biscuit.'
   },
   {
     id: 'gal-chai',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface HeroProps {
   language: 'en' | 'te';
@@ -45,12 +45,10 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
       {/* Content Container */}
       <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
         {/* Animated Brand Emblem & Label */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#402329]/70 border border-[#D8B66A]/40 backdrop-blur-md mb-6 transform hover:scale-105 transition-transform duration-300">
-          <Sparkles className="w-3.5 h-3.5 text-[#D8B66A]" />
+        <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#402329]/70 border border-[#D8B66A]/40 backdrop-blur-md mb-6 transform hover:scale-105 transition-transform duration-300">
           <span className="text-[11px] sm:text-xs font-semibold tracking-[0.22em] uppercase text-[#D8B66A]">
             YOUR FAVOURITE TEA DESTINATION
           </span>
-          <Sparkles className="w-3.5 h-3.5 text-[#D8B66A]" />
         </div>
 
         {/* Official Cafe Logo Presentation */}

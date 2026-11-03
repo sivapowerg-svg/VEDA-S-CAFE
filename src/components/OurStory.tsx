@@ -66,8 +66,8 @@ export const OurStory: React.FC<OurStoryProps> = ({ language }) => {
             <div className="space-y-4 text-base text-[#F8F0E3]/80 leading-relaxed">
               <p>
                 {language === 'en'
-                  ? "Welcome to Veda's Cafe, where the simple happiness of tea meets the warmth of Indian tradition. From classic tea and coffee to refreshing beverages and our signature Crunchy Cup Tea, every visit is an opportunity to enjoy something special."
-                  : 'వేదాస్ కేఫ్‌కు స్వాగతం. ఇక్కడ టీ యొక్క సహజమైన ఆనందం భారతీయ ఆతిథ్య సంప్రదాయంతో కలుస్తుంది. ప్రాచీన టీ, కాఫీ నుండి రిఫ్రెషింగ్ పానీయాలు మరియు మా ప్రత్యేకమైన క్రంచీ కప్ టీ వరకు, ప్రతి సందర్శన ఒక మధురమైన అనుభూతిగా మారుతుంది.'}
+                  ? "Welcome to Veda's Cafe, where the simple happiness of tea meets the warmth of Indian tradition. From classic tea and coffee to refreshing beverages and our signature Biscuit Cup Tea, every visit is an opportunity to enjoy something special."
+                  : 'వేదాస్ కేఫ్‌కు స్వాగతం. ఇక్కడ టీ యొక్క సహజమైన ఆనందం భారతీయ ఆతిథ్య సంప్రదాయంతో కలుస్తుంది. ప్రాచీన టీ, కాఫీ నుండి రిఫ్రెషింగ్ పానీయాలు మరియు మా ప్రత్యేకమైన బిస్కెట్ కప్ టీ వరకు, ప్రతి సందర్శన ఒక మధురమైన అనుభూతిగా మారుతుంది.'}
               </p>
               <p>
                 Nestled on Venkatagiri - Gudur Road near the Railway Station in Ashok Nagar, West Gudur, Veda&apos;s Cafe was born out of a deep reverence for the honest cup. In an era of hurried sips, we created a sanctuary where neighbors gather, students pause to converse, and travelers discover tea served with soul.
@@ -80,7 +80,7 @@ export const OurStory: React.FC<OurStoryProps> = ({ language }) => {
                 &ldquo;Happiness is the Cup of Tea. One Cup. Endless Happiness.&rdquo;
               </p>
               <p className="text-xs uppercase tracking-widest text-[#F8F0E3]/60 mt-1">
-                — Veda&apos;s Cafe Motto, Gudur
+                — Veda&apos;s Cafe
               </p>
             </div>
 
